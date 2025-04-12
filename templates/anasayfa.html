@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Anasayfa</h1>
+    <h2>Anasayfa</h2>
+    <h3>Anasayfa</h3>
+    <h4>Anasayfa</h4>
+    <h5>Anasayfa</h5>
+    <h6>Anasayfa</h6>
+
+    <h1>else if</h1>
+
+    {%if number==10%}
+    <h1>{{ number }}</h1>
+    {%elif number==20%}
+    <h2>{{number2}}</h2>
+    {%else%}
+    <h1>{{ number }}</h1>
+    <h2>{{number2}}</h2>
+    {%endif%}
+    <h1>for</h1>
+
+    {% for k in sozluk %}
+    <h2>sözlük :{{k}}</h2>
+    {% endfor%}
+  </body>
+</html>
