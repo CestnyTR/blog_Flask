@@ -1,5 +1,7 @@
 from flask import Flask, render_template, redirect, request, url_for, flash, session
 import wtforms
+import pymysql
+pymysql.install_as_MySQLdb()  # flask_mysqldb, derleme gerektiren mysqlclient yerine PyMySQL kullansın
 from flask_mysqldb import MySQL
 from passlib.hash import sha256_crypt
 
